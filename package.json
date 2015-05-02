@@ -21,6 +21,6 @@
     "install": "./node_modules/.bin/genesis.pinf.org install -v"
   },
   "dependencies": {
-    "genesis.pinf.org": "^0.2.3"
+    "genesis.pinf.org": "^0.2.4"
   }
 }
