@@ -1,29 +1,43 @@
 codi.sh
 =======
 
+Usage
+-----
 
-Install
-=======
+Requirements:
+
+  * OSX
+
+#### One-time
 
 	git clone https://github.com/codi-sh/codi.sh codi.sh
 	cd codi.sh
 
-	bin/install    # Ends with 'INSTALL DONE' on succcess
+#### Run system
 
+	./boot [-vd]
 
-Run
----
+Upon `boot` a system will be initialized and running ready for exploration using your default browser which should have been opened.
 
-	bin/demo       # Ends with 'DEMOS DONE' on succcess
-	bin/test       # Ends with 'TESTS DONE' on succcess
-
-Please [file an issue](https://github.com/codi-sh/codi.sh/issues) if you run into an error.
-
-
-Contribute
-----------
+#### Make changes
 
 	source bin/activate
 
-Loads a command-line environment from which projects may be manipulated for the purpose of development. Once activated, the prompt will change and more commands are available. Run `help` for more information.
+	# make changes ...
+
+	test
+
+	clean
+
+	# Commit changes & push
+
+Upon `activation` a command-line environment is loaded from which the system may be manipulated for the purpose of development. Once activated, the prompt will change and more commands are available. Run `help` for more information.
+
+
+License
+=======
+
+This system is a clone of [genesis.pinf.org](http://genesis.pinf.org).
+
+[MIT](http://opensource.org/licenses/MIT)
 
