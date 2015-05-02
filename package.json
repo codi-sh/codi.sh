@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/codi-sh/codi.sh/issues"
   },
-  "homepage": "https://github.com/codi-sh/codi.sh"
+  "homepage": "https://github.com/codi-sh/codi.sh",
+  "scripts": {
+    "install": "./node_modules/.bin/genesis.pinf.org install -v"
+  },
+  "dependencies": {
+    "genesis.pinf.org": "^0.2.3"
+  }
 }

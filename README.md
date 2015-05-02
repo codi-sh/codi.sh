@@ -7,37 +7,25 @@ Usage
 Requirements:
 
   * OSX
+  * NodeJS 10
 
-#### One-time
+#### Install [Development Workspace](http://genesis.pinf.org)
 
 	git clone https://github.com/codi-sh/codi.sh codi.sh
 	cd codi.sh
 
-#### Run system
+	npm install
 
-	./boot [-vd]
+#### Initialize Workspace
 
-Upon `boot` a system will be initialized and running ready for exploration using your default browser which should have been opened.
+	./boot turn -v
 
-#### Make changes
+#### Use Workspace
 
-	source bin/activate
-
-	# make changes ...
-
-	test
-
-	clean
-
-	# Commit changes & push
-
-Upon `activation` a command-line environment is loaded from which the system may be manipulated for the purpose of development. Once activated, the prompt will change and more commands are available. Run `help` for more information.
+Upon workspace initialization above, [more instructions](https://github.com/pinf/genesis.pinf.org/blob/master/.pgs/vortex/WORKSPACE.md) will be available at `YourNodeJSPackage/WORKSPACE.md`.
 
 
 License
 =======
 
-This system is a clone of [genesis.pinf.org](http://genesis.pinf.org).
-
 [MIT](http://opensource.org/licenses/MIT)
-
