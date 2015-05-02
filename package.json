@@ -4,9 +4,6 @@
   "description": "An exercise. Purpose to become eventually clear.",
   "main": "index.js",
   "devDependencies": {},
-  "scripts": {
-    "install": ".deps/github.com~pinf~genesis.pinf.org~0/source/installed/master/.pgs/pgs.sh install"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/codi-sh/codi.sh.git"
