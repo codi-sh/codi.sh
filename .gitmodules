@@ -1,0 +1,3 @@
+[submodule ".deps/github.com~pinf~genesis.pinf.org~0/source/installed/master"]
+	path = .deps/github.com~pinf~genesis.pinf.org~0/source/installed/master
+	url = git@github.com:pinf/genesis.pinf.org.git
