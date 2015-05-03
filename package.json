@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/codi-sh/codi.sh",
   "scripts": {
-    "install": "./node_modules/.bin/genesis.pinf.org install -v"
+    "install": "./bin/install"
   },
   "dependencies": {
-    "genesis.pinf.org": "^0.2.4"
+    "bash.origin": "0.1.x"
   }
 }
