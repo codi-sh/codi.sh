@@ -1,29 +1,31 @@
 codi.sh
 =======
 
+Usage
+-----
 
-Install
-=======
+Requirements:
+
+  * OSX
+  * NodeJS 10
+
+#### Install [Development Workspace](http://devcomp.org)
 
 	git clone https://github.com/codi-sh/codi.sh codi.sh
 	cd codi.sh
 
-	bin/install    # Ends with 'INSTALL DONE' on succcess
+	npm install
+
+#### Initialize Workspace
+
+	./boot turn -v
+
+#### Use Workspace
+
+Upon workspace initialization above, [more instructions](https://github.com/pinf/genesis.pinf.org/blob/master/.pgs/vortex/WORKSPACE.md) will be available at `YourNodeJSPackage/WORKSPACE.md`.
 
 
-Run
----
+License
+=======
 
-	bin/demo       # Ends with 'DEMOS DONE' on succcess
-	bin/test       # Ends with 'TESTS DONE' on succcess
-
-Please [file an issue](https://github.com/codi-sh/codi.sh/issues) if you run into an error.
-
-
-Contribute
-----------
-
-	source bin/activate
-
-Loads a command-line environment from which projects may be manipulated for the purpose of development. Once activated, the prompt will change and more commands are available. Run `help` for more information.
-
+[MIT](http://opensource.org/licenses/MIT)

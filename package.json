@@ -1,15 +1,9 @@
 {
   "name": "codi.sh",
   "version": "0.1.0",
-  "dependencies": {
-    "bash.origin": "0.1.x"
-  },
   "description": "An exercise. Purpose to become eventually clear.",
   "main": "index.js",
   "devDependencies": {},
-  "scripts": {
-    "test": "exit 0"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/codi-sh/codi.sh.git"
@@ -22,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/codi-sh/codi.sh/issues"
   },
-  "homepage": "https://github.com/codi-sh/codi.sh"
+  "homepage": "https://github.com/codi-sh/codi.sh",
+  "scripts": {
+    "install": "./bin/install"
+  },
+  "dependencies": {
+    "bash.origin": "0.1.x"
+  }
 }
