@@ -9,7 +9,7 @@ Requirements:
   * OSX
   * NodeJS 10
 
-#### Install [Development Workspace](http://genesis.pinf.org)
+#### Install [Development Workspace](http://devcomp.org)
 
 	git clone https://github.com/codi-sh/codi.sh codi.sh
 	cd codi.sh
